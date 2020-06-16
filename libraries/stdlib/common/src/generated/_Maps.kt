@@ -317,6 +317,7 @@ public inline fun <K, V> Map<out K, V>.maxWith(comparator: Comparator<in Map.Ent
 /**
  * Returns the first entry having the largest value according to the provided [comparator] or `null` if there are no entries.
  */
+@SinceKotlin("1.4")
 @kotlin.internal.InlineOnly
 public inline fun <K, V> Map<out K, V>.maxWithOrNull(comparator: Comparator<in Map.Entry<K, V>>): Map.Entry<K, V>? {
     return entries.maxWithOrNull(comparator)
@@ -458,6 +459,7 @@ public fun <K, V> Map<out K, V>.minWith(comparator: Comparator<in Map.Entry<K, V
 /**
  * Returns the first entry having the smallest value according to the provided [comparator] or `null` if there are no entries.
  */
+@SinceKotlin("1.4")
 @kotlin.internal.InlineOnly
 public inline fun <K, V> Map<out K, V>.minWithOrNull(comparator: Comparator<in Map.Entry<K, V>>): Map.Entry<K, V>? {
     return entries.minWithOrNull(comparator)

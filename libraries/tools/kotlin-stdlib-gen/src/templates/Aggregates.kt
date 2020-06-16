@@ -465,6 +465,8 @@ object Aggregates : TemplateGroupBase() {
                     return@builder
                 }
 
+                since("1.4")
+
                 doc { "Returns the first ${f.element} having the ${if (op == "maxWith") "largest" else "smallest"} value according to the provided [comparator] or `null` if there are no ${f.element.pluralize()}." }
 
                 val (acc, cmp) = if (op == "minWith") Pair("min", ">") else Pair("max", "<")

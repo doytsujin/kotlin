@@ -4838,42 +4838,53 @@ public fun <T> kotlin.collections.Iterable<T>.maxWith(comparator: kotlin.Compara
 @kotlin.internal.InlineOnly
 public inline fun <K, V> kotlin.collections.Map<out K, V>.maxWith(comparator: kotlin.Comparator<in kotlin.collections.Map.Entry<K, V>>): kotlin.collections.Map.Entry<K, V>?
 
+@kotlin.SinceKotlin(version = "1.4")
 public fun <T> kotlin.Array<out T>.maxWithOrNull(comparator: kotlin.Comparator<in T>): T?
 
+@kotlin.SinceKotlin(version = "1.4")
 public fun kotlin.BooleanArray.maxWithOrNull(comparator: kotlin.Comparator<in kotlin.Boolean>): kotlin.Boolean?
 
+@kotlin.SinceKotlin(version = "1.4")
 public fun kotlin.ByteArray.maxWithOrNull(comparator: kotlin.Comparator<in kotlin.Byte>): kotlin.Byte?
 
+@kotlin.SinceKotlin(version = "1.4")
 public fun kotlin.CharArray.maxWithOrNull(comparator: kotlin.Comparator<in kotlin.Char>): kotlin.Char?
 
+@kotlin.SinceKotlin(version = "1.4")
 public fun kotlin.DoubleArray.maxWithOrNull(comparator: kotlin.Comparator<in kotlin.Double>): kotlin.Double?
 
+@kotlin.SinceKotlin(version = "1.4")
 public fun kotlin.FloatArray.maxWithOrNull(comparator: kotlin.Comparator<in kotlin.Float>): kotlin.Float?
 
+@kotlin.SinceKotlin(version = "1.4")
 public fun kotlin.IntArray.maxWithOrNull(comparator: kotlin.Comparator<in kotlin.Int>): kotlin.Int?
 
+@kotlin.SinceKotlin(version = "1.4")
 public fun kotlin.LongArray.maxWithOrNull(comparator: kotlin.Comparator<in kotlin.Long>): kotlin.Long?
 
+@kotlin.SinceKotlin(version = "1.4")
 public fun kotlin.ShortArray.maxWithOrNull(comparator: kotlin.Comparator<in kotlin.Short>): kotlin.Short?
 
-@kotlin.SinceKotlin(version = "1.3")
+@kotlin.SinceKotlin(version = "1.4")
 @kotlin.ExperimentalUnsignedTypes
 public fun kotlin.UByteArray.maxWithOrNull(comparator: kotlin.Comparator<in kotlin.UByte>): kotlin.UByte?
 
-@kotlin.SinceKotlin(version = "1.3")
+@kotlin.SinceKotlin(version = "1.4")
 @kotlin.ExperimentalUnsignedTypes
 public fun kotlin.UIntArray.maxWithOrNull(comparator: kotlin.Comparator<in kotlin.UInt>): kotlin.UInt?
 
-@kotlin.SinceKotlin(version = "1.3")
+@kotlin.SinceKotlin(version = "1.4")
 @kotlin.ExperimentalUnsignedTypes
 public fun kotlin.ULongArray.maxWithOrNull(comparator: kotlin.Comparator<in kotlin.ULong>): kotlin.ULong?
 
-@kotlin.SinceKotlin(version = "1.3")
+@kotlin.SinceKotlin(version = "1.4")
 @kotlin.ExperimentalUnsignedTypes
 public fun kotlin.UShortArray.maxWithOrNull(comparator: kotlin.Comparator<in kotlin.UShort>): kotlin.UShort?
 
+@kotlin.SinceKotlin(version = "1.4")
 public fun <T> kotlin.collections.Iterable<T>.maxWithOrNull(comparator: kotlin.Comparator<in T>): T?
 
+@kotlin.SinceKotlin(version = "1.4")
 @kotlin.internal.InlineOnly
 public inline fun <K, V> kotlin.collections.Map<out K, V>.maxWithOrNull(comparator: kotlin.Comparator<in kotlin.collections.Map.Entry<K, V>>): kotlin.collections.Map.Entry<K, V>?
 
@@ -5791,42 +5802,53 @@ public fun <T> kotlin.collections.Iterable<T>.minWith(comparator: kotlin.Compara
 @kotlin.Deprecated(message = "Use minWithOrNull instead.", replaceWith = kotlin.ReplaceWith(expression = "minWithOrNull(comparator)", imports = {}))
 public fun <K, V> kotlin.collections.Map<out K, V>.minWith(comparator: kotlin.Comparator<in kotlin.collections.Map.Entry<K, V>>): kotlin.collections.Map.Entry<K, V>?
 
+@kotlin.SinceKotlin(version = "1.4")
 public fun <T> kotlin.Array<out T>.minWithOrNull(comparator: kotlin.Comparator<in T>): T?
 
+@kotlin.SinceKotlin(version = "1.4")
 public fun kotlin.BooleanArray.minWithOrNull(comparator: kotlin.Comparator<in kotlin.Boolean>): kotlin.Boolean?
 
+@kotlin.SinceKotlin(version = "1.4")
 public fun kotlin.ByteArray.minWithOrNull(comparator: kotlin.Comparator<in kotlin.Byte>): kotlin.Byte?
 
+@kotlin.SinceKotlin(version = "1.4")
 public fun kotlin.CharArray.minWithOrNull(comparator: kotlin.Comparator<in kotlin.Char>): kotlin.Char?
 
+@kotlin.SinceKotlin(version = "1.4")
 public fun kotlin.DoubleArray.minWithOrNull(comparator: kotlin.Comparator<in kotlin.Double>): kotlin.Double?
 
+@kotlin.SinceKotlin(version = "1.4")
 public fun kotlin.FloatArray.minWithOrNull(comparator: kotlin.Comparator<in kotlin.Float>): kotlin.Float?
 
+@kotlin.SinceKotlin(version = "1.4")
 public fun kotlin.IntArray.minWithOrNull(comparator: kotlin.Comparator<in kotlin.Int>): kotlin.Int?
 
+@kotlin.SinceKotlin(version = "1.4")
 public fun kotlin.LongArray.minWithOrNull(comparator: kotlin.Comparator<in kotlin.Long>): kotlin.Long?
 
+@kotlin.SinceKotlin(version = "1.4")
 public fun kotlin.ShortArray.minWithOrNull(comparator: kotlin.Comparator<in kotlin.Short>): kotlin.Short?
 
-@kotlin.SinceKotlin(version = "1.3")
+@kotlin.SinceKotlin(version = "1.4")
 @kotlin.ExperimentalUnsignedTypes
 public fun kotlin.UByteArray.minWithOrNull(comparator: kotlin.Comparator<in kotlin.UByte>): kotlin.UByte?
 
-@kotlin.SinceKotlin(version = "1.3")
+@kotlin.SinceKotlin(version = "1.4")
 @kotlin.ExperimentalUnsignedTypes
 public fun kotlin.UIntArray.minWithOrNull(comparator: kotlin.Comparator<in kotlin.UInt>): kotlin.UInt?
 
-@kotlin.SinceKotlin(version = "1.3")
+@kotlin.SinceKotlin(version = "1.4")
 @kotlin.ExperimentalUnsignedTypes
 public fun kotlin.ULongArray.minWithOrNull(comparator: kotlin.Comparator<in kotlin.ULong>): kotlin.ULong?
 
-@kotlin.SinceKotlin(version = "1.3")
+@kotlin.SinceKotlin(version = "1.4")
 @kotlin.ExperimentalUnsignedTypes
 public fun kotlin.UShortArray.minWithOrNull(comparator: kotlin.Comparator<in kotlin.UShort>): kotlin.UShort?
 
+@kotlin.SinceKotlin(version = "1.4")
 public fun <T> kotlin.collections.Iterable<T>.minWithOrNull(comparator: kotlin.Comparator<in T>): T?
 
+@kotlin.SinceKotlin(version = "1.4")
 @kotlin.internal.InlineOnly
 public inline fun <K, V> kotlin.collections.Map<out K, V>.minWithOrNull(comparator: kotlin.Comparator<in kotlin.collections.Map.Entry<K, V>>): kotlin.collections.Map.Entry<K, V>?
 

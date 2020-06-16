@@ -1311,6 +1311,7 @@ public fun CharSequence.maxWith(comparator: Comparator<in Char>): Char? {
 /**
  * Returns the first character having the largest value according to the provided [comparator] or `null` if there are no characters.
  */
+@SinceKotlin("1.4")
 public fun CharSequence.maxWithOrNull(comparator: Comparator<in Char>): Char? {
     if (isEmpty()) return null
     var max = this[0]
@@ -1544,6 +1545,7 @@ public fun CharSequence.minWith(comparator: Comparator<in Char>): Char? {
 /**
  * Returns the first character having the smallest value according to the provided [comparator] or `null` if there are no characters.
  */
+@SinceKotlin("1.4")
 public fun CharSequence.minWithOrNull(comparator: Comparator<in Char>): Char? {
     if (isEmpty()) return null
     var min = this[0]

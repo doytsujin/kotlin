@@ -292,6 +292,7 @@ public fun kotlin.sequences.Sequence<kotlin.Float>.maxOrNull(): kotlin.Float?
 @kotlin.Deprecated(message = "Use maxWithOrNull instead.", replaceWith = kotlin.ReplaceWith(expression = "maxWithOrNull(comparator)", imports = {}))
 public fun <T> kotlin.sequences.Sequence<T>.maxWith(comparator: kotlin.Comparator<in T>): T?
 
+@kotlin.SinceKotlin(version = "1.4")
 public fun <T> kotlin.sequences.Sequence<T>.maxWithOrNull(comparator: kotlin.Comparator<in T>): T?
 
 @kotlin.Deprecated(message = "Use minOrNull instead.", replaceWith = kotlin.ReplaceWith(expression = "minOrNull()", imports = {}))
@@ -363,6 +364,7 @@ public fun kotlin.sequences.Sequence<kotlin.Float>.minOrNull(): kotlin.Float?
 @kotlin.Deprecated(message = "Use minWithOrNull instead.", replaceWith = kotlin.ReplaceWith(expression = "minWithOrNull(comparator)", imports = {}))
 public fun <T> kotlin.sequences.Sequence<T>.minWith(comparator: kotlin.Comparator<in T>): T?
 
+@kotlin.SinceKotlin(version = "1.4")
 public fun <T> kotlin.sequences.Sequence<T>.minWithOrNull(comparator: kotlin.Comparator<in T>): T?
 
 public operator fun <T> kotlin.sequences.Sequence<T>.minus(element: T): kotlin.sequences.Sequence<T>

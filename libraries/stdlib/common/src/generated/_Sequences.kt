@@ -1470,6 +1470,7 @@ public fun <T> Sequence<T>.maxWith(comparator: Comparator<in T>): T? {
  *
  * The operation is _terminal_.
  */
+@SinceKotlin("1.4")
 public fun <T> Sequence<T>.maxWithOrNull(comparator: Comparator<in T>): T? {
     val iterator = iterator()
     if (!iterator.hasNext()) return null
@@ -1785,6 +1786,7 @@ public fun <T> Sequence<T>.minWith(comparator: Comparator<in T>): T? {
  *
  * The operation is _terminal_.
  */
+@SinceKotlin("1.4")
 public fun <T> Sequence<T>.minWithOrNull(comparator: Comparator<in T>): T? {
     val iterator = iterator()
     if (!iterator.hasNext()) return null

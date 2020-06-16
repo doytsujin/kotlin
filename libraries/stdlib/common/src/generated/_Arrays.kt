@@ -15069,6 +15069,7 @@ public fun CharArray.maxWith(comparator: Comparator<in Char>): Char? {
 /**
  * Returns the first element having the largest value according to the provided [comparator] or `null` if there are no elements.
  */
+@SinceKotlin("1.4")
 public fun <T> Array<out T>.maxWithOrNull(comparator: Comparator<in T>): T? {
     if (isEmpty()) return null
     var max = this[0]
@@ -15082,6 +15083,7 @@ public fun <T> Array<out T>.maxWithOrNull(comparator: Comparator<in T>): T? {
 /**
  * Returns the first element having the largest value according to the provided [comparator] or `null` if there are no elements.
  */
+@SinceKotlin("1.4")
 public fun ByteArray.maxWithOrNull(comparator: Comparator<in Byte>): Byte? {
     if (isEmpty()) return null
     var max = this[0]
@@ -15095,6 +15097,7 @@ public fun ByteArray.maxWithOrNull(comparator: Comparator<in Byte>): Byte? {
 /**
  * Returns the first element having the largest value according to the provided [comparator] or `null` if there are no elements.
  */
+@SinceKotlin("1.4")
 public fun ShortArray.maxWithOrNull(comparator: Comparator<in Short>): Short? {
     if (isEmpty()) return null
     var max = this[0]
@@ -15108,6 +15111,7 @@ public fun ShortArray.maxWithOrNull(comparator: Comparator<in Short>): Short? {
 /**
  * Returns the first element having the largest value according to the provided [comparator] or `null` if there are no elements.
  */
+@SinceKotlin("1.4")
 public fun IntArray.maxWithOrNull(comparator: Comparator<in Int>): Int? {
     if (isEmpty()) return null
     var max = this[0]
@@ -15121,6 +15125,7 @@ public fun IntArray.maxWithOrNull(comparator: Comparator<in Int>): Int? {
 /**
  * Returns the first element having the largest value according to the provided [comparator] or `null` if there are no elements.
  */
+@SinceKotlin("1.4")
 public fun LongArray.maxWithOrNull(comparator: Comparator<in Long>): Long? {
     if (isEmpty()) return null
     var max = this[0]
@@ -15134,6 +15139,7 @@ public fun LongArray.maxWithOrNull(comparator: Comparator<in Long>): Long? {
 /**
  * Returns the first element having the largest value according to the provided [comparator] or `null` if there are no elements.
  */
+@SinceKotlin("1.4")
 public fun FloatArray.maxWithOrNull(comparator: Comparator<in Float>): Float? {
     if (isEmpty()) return null
     var max = this[0]
@@ -15147,6 +15153,7 @@ public fun FloatArray.maxWithOrNull(comparator: Comparator<in Float>): Float? {
 /**
  * Returns the first element having the largest value according to the provided [comparator] or `null` if there are no elements.
  */
+@SinceKotlin("1.4")
 public fun DoubleArray.maxWithOrNull(comparator: Comparator<in Double>): Double? {
     if (isEmpty()) return null
     var max = this[0]
@@ -15160,6 +15167,7 @@ public fun DoubleArray.maxWithOrNull(comparator: Comparator<in Double>): Double?
 /**
  * Returns the first element having the largest value according to the provided [comparator] or `null` if there are no elements.
  */
+@SinceKotlin("1.4")
 public fun BooleanArray.maxWithOrNull(comparator: Comparator<in Boolean>): Boolean? {
     if (isEmpty()) return null
     var max = this[0]
@@ -15173,6 +15181,7 @@ public fun BooleanArray.maxWithOrNull(comparator: Comparator<in Boolean>): Boole
 /**
  * Returns the first element having the largest value according to the provided [comparator] or `null` if there are no elements.
  */
+@SinceKotlin("1.4")
 public fun CharArray.maxWithOrNull(comparator: Comparator<in Char>): Char? {
     if (isEmpty()) return null
     var max = this[0]
@@ -17195,6 +17204,7 @@ public fun CharArray.minWith(comparator: Comparator<in Char>): Char? {
 /**
  * Returns the first element having the smallest value according to the provided [comparator] or `null` if there are no elements.
  */
+@SinceKotlin("1.4")
 public fun <T> Array<out T>.minWithOrNull(comparator: Comparator<in T>): T? {
     if (isEmpty()) return null
     var min = this[0]
@@ -17208,6 +17218,7 @@ public fun <T> Array<out T>.minWithOrNull(comparator: Comparator<in T>): T? {
 /**
  * Returns the first element having the smallest value according to the provided [comparator] or `null` if there are no elements.
  */
+@SinceKotlin("1.4")
 public fun ByteArray.minWithOrNull(comparator: Comparator<in Byte>): Byte? {
     if (isEmpty()) return null
     var min = this[0]
@@ -17221,6 +17232,7 @@ public fun ByteArray.minWithOrNull(comparator: Comparator<in Byte>): Byte? {
 /**
  * Returns the first element having the smallest value according to the provided [comparator] or `null` if there are no elements.
  */
+@SinceKotlin("1.4")
 public fun ShortArray.minWithOrNull(comparator: Comparator<in Short>): Short? {
     if (isEmpty()) return null
     var min = this[0]
@@ -17234,6 +17246,7 @@ public fun ShortArray.minWithOrNull(comparator: Comparator<in Short>): Short? {
 /**
  * Returns the first element having the smallest value according to the provided [comparator] or `null` if there are no elements.
  */
+@SinceKotlin("1.4")
 public fun IntArray.minWithOrNull(comparator: Comparator<in Int>): Int? {
     if (isEmpty()) return null
     var min = this[0]
@@ -17247,6 +17260,7 @@ public fun IntArray.minWithOrNull(comparator: Comparator<in Int>): Int? {
 /**
  * Returns the first element having the smallest value according to the provided [comparator] or `null` if there are no elements.
  */
+@SinceKotlin("1.4")
 public fun LongArray.minWithOrNull(comparator: Comparator<in Long>): Long? {
     if (isEmpty()) return null
     var min = this[0]
@@ -17260,6 +17274,7 @@ public fun LongArray.minWithOrNull(comparator: Comparator<in Long>): Long? {
 /**
  * Returns the first element having the smallest value according to the provided [comparator] or `null` if there are no elements.
  */
+@SinceKotlin("1.4")
 public fun FloatArray.minWithOrNull(comparator: Comparator<in Float>): Float? {
     if (isEmpty()) return null
     var min = this[0]
@@ -17273,6 +17288,7 @@ public fun FloatArray.minWithOrNull(comparator: Comparator<in Float>): Float? {
 /**
  * Returns the first element having the smallest value according to the provided [comparator] or `null` if there are no elements.
  */
+@SinceKotlin("1.4")
 public fun DoubleArray.minWithOrNull(comparator: Comparator<in Double>): Double? {
     if (isEmpty()) return null
     var min = this[0]
@@ -17286,6 +17302,7 @@ public fun DoubleArray.minWithOrNull(comparator: Comparator<in Double>): Double?
 /**
  * Returns the first element having the smallest value according to the provided [comparator] or `null` if there are no elements.
  */
+@SinceKotlin("1.4")
 public fun BooleanArray.minWithOrNull(comparator: Comparator<in Boolean>): Boolean? {
     if (isEmpty()) return null
     var min = this[0]
@@ -17299,6 +17316,7 @@ public fun BooleanArray.minWithOrNull(comparator: Comparator<in Boolean>): Boole
 /**
  * Returns the first element having the smallest value according to the provided [comparator] or `null` if there are no elements.
  */
+@SinceKotlin("1.4")
 public fun CharArray.minWithOrNull(comparator: Comparator<in Char>): Char? {
     if (isEmpty()) return null
     var min = this[0]

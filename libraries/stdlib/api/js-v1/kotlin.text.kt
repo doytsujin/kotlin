@@ -449,6 +449,7 @@ public fun kotlin.CharSequence.maxOrNull(): kotlin.Char?
 @kotlin.Deprecated(message = "Use maxWithOrNull instead.", replaceWith = kotlin.ReplaceWith(expression = "maxWithOrNull(comparator)", imports = {}))
 public fun kotlin.CharSequence.maxWith(comparator: kotlin.Comparator<in kotlin.Char>): kotlin.Char?
 
+@kotlin.SinceKotlin(version = "1.4")
 public fun kotlin.CharSequence.maxWithOrNull(comparator: kotlin.Comparator<in kotlin.Char>): kotlin.Char?
 
 @kotlin.Deprecated(message = "Use minOrNull instead.", replaceWith = kotlin.ReplaceWith(expression = "minOrNull()", imports = {}))
@@ -506,6 +507,7 @@ public fun kotlin.CharSequence.minOrNull(): kotlin.Char?
 @kotlin.Deprecated(message = "Use minWithOrNull instead.", replaceWith = kotlin.ReplaceWith(expression = "minWithOrNull(comparator)", imports = {}))
 public fun kotlin.CharSequence.minWith(comparator: kotlin.Comparator<in kotlin.Char>): kotlin.Char?
 
+@kotlin.SinceKotlin(version = "1.4")
 public fun kotlin.CharSequence.minWithOrNull(comparator: kotlin.Comparator<in kotlin.Char>): kotlin.Char?
 
 public fun kotlin.CharSequence.none(): kotlin.Boolean

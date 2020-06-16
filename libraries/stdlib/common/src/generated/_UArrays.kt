@@ -6657,7 +6657,7 @@ public fun UShortArray.maxWith(comparator: Comparator<in UShort>): UShort? {
 /**
  * Returns the first element having the largest value according to the provided [comparator] or `null` if there are no elements.
  */
-@SinceKotlin("1.3")
+@SinceKotlin("1.4")
 @ExperimentalUnsignedTypes
 public fun UIntArray.maxWithOrNull(comparator: Comparator<in UInt>): UInt? {
     if (isEmpty()) return null
@@ -6672,7 +6672,7 @@ public fun UIntArray.maxWithOrNull(comparator: Comparator<in UInt>): UInt? {
 /**
  * Returns the first element having the largest value according to the provided [comparator] or `null` if there are no elements.
  */
-@SinceKotlin("1.3")
+@SinceKotlin("1.4")
 @ExperimentalUnsignedTypes
 public fun ULongArray.maxWithOrNull(comparator: Comparator<in ULong>): ULong? {
     if (isEmpty()) return null
@@ -6687,7 +6687,7 @@ public fun ULongArray.maxWithOrNull(comparator: Comparator<in ULong>): ULong? {
 /**
  * Returns the first element having the largest value according to the provided [comparator] or `null` if there are no elements.
  */
-@SinceKotlin("1.3")
+@SinceKotlin("1.4")
 @ExperimentalUnsignedTypes
 public fun UByteArray.maxWithOrNull(comparator: Comparator<in UByte>): UByte? {
     if (isEmpty()) return null
@@ -6702,7 +6702,7 @@ public fun UByteArray.maxWithOrNull(comparator: Comparator<in UByte>): UByte? {
 /**
  * Returns the first element having the largest value according to the provided [comparator] or `null` if there are no elements.
  */
-@SinceKotlin("1.3")
+@SinceKotlin("1.4")
 @ExperimentalUnsignedTypes
 public fun UShortArray.maxWithOrNull(comparator: Comparator<in UShort>): UShort? {
     if (isEmpty()) return null
@@ -7669,7 +7669,7 @@ public fun UShortArray.minWith(comparator: Comparator<in UShort>): UShort? {
 /**
  * Returns the first element having the smallest value according to the provided [comparator] or `null` if there are no elements.
  */
-@SinceKotlin("1.3")
+@SinceKotlin("1.4")
 @ExperimentalUnsignedTypes
 public fun UIntArray.minWithOrNull(comparator: Comparator<in UInt>): UInt? {
     if (isEmpty()) return null
@@ -7684,7 +7684,7 @@ public fun UIntArray.minWithOrNull(comparator: Comparator<in UInt>): UInt? {
 /**
  * Returns the first element having the smallest value according to the provided [comparator] or `null` if there are no elements.
  */
-@SinceKotlin("1.3")
+@SinceKotlin("1.4")
 @ExperimentalUnsignedTypes
 public fun ULongArray.minWithOrNull(comparator: Comparator<in ULong>): ULong? {
     if (isEmpty()) return null
@@ -7699,7 +7699,7 @@ public fun ULongArray.minWithOrNull(comparator: Comparator<in ULong>): ULong? {
 /**
  * Returns the first element having the smallest value according to the provided [comparator] or `null` if there are no elements.
  */
-@SinceKotlin("1.3")
+@SinceKotlin("1.4")
 @ExperimentalUnsignedTypes
 public fun UByteArray.minWithOrNull(comparator: Comparator<in UByte>): UByte? {
     if (isEmpty()) return null
@@ -7714,7 +7714,7 @@ public fun UByteArray.minWithOrNull(comparator: Comparator<in UByte>): UByte? {
 /**
  * Returns the first element having the smallest value according to the provided [comparator] or `null` if there are no elements.
  */
-@SinceKotlin("1.3")
+@SinceKotlin("1.4")
 @ExperimentalUnsignedTypes
 public fun UShortArray.minWithOrNull(comparator: Comparator<in UShort>): UShort? {
     if (isEmpty()) return null
